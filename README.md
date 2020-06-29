@@ -5,7 +5,7 @@
   
   Technology:C,C++.
  
-As this is the wrapper of C functionalty of MongoDB so first of all you have to build C MongoDB Driver.
+As this is the wrapper of C of so first of all you have to build C MongoDB Driver.
 
 Steps to Build C MongoDB Driver for ```UBUTU 16.04```  and above versions.
 ## STEP 1:-Build and Install MongoDB C Driver.
