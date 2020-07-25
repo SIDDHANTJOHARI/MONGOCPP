@@ -13,9 +13,6 @@ Steps to Build C MongoDB Driver for ```UBUTU 16.04```  and above versions.
 export SOURCE_ROOT=/<source_root>/
 sudo apt-get update
 sudo apt-get install -y cmake gcc libsasl2-dev libssl-dev make pkg-config tar wget
-```
-## STEP 2:- Basic validation testConfigure, build and install the MongoDB C Driver
-```bash
 cd $SOURCE_ROOT
 wget https://github.com/mongodb/mongo-c-driver/releases/download/1.16.2/mongo-c-driver-1.16.2.tar.gz
 tar -xzf mongo-c-driver-1.16.2.tar.gz
@@ -31,7 +28,7 @@ Set Envioronment Variables:
 export LD_LIBRARY_PATH=/usr/local/lib
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
 ```
-## STEP 3:-Validation test
+## STEP 2:-Validation test
 ```
 For Validation you have to install MongoDB to install MongoDB instrunctions are on their website.
 The below example is used to perform a basic test to ensure that the MongoDB C Driver is working as
